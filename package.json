@@ -1,0 +1,24 @@
+{
+  "name": "meet-the-causas-website",
+  "version": "1.0.0",
+  "description": "La web no oficial (de momento) de Meet the Causas",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass" : "sass --watch sass:src/css",
+    "dev" : "gulp"
+  },
+  "keywords": [
+    "meet",
+    "the",
+    "causas"
+  ],
+  "author": "Amdrés Cerreño",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.85.1",
+    "sharp": "^0.33.5"
+  }
+}
